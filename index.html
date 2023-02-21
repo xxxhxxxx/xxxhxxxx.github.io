@@ -408,29 +408,6 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/medias/featureimages/3.jpg');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">stm32</div>
-                            <div class="description center-align">
-                                
-                                    关于stm32的知识
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2023/022149946.html" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
                  style="background-image: url('/medias/featureimages/0.jpg');">
                 <div class="container">
                     <div class="row">
@@ -443,6 +420,29 @@
                             </div>
                             <div class="cover-btns">
                                 <a href="/2023/022110682.html" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/featureimages/3.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">stm32</div>
+                            <div class="description center-align">
+                                
+                                    关于stm32的知识
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2023/022149946.html" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -562,34 +562,6 @@
     
     <div class="col s12 m6" >
         
-            <div class="post-card" style="background-image: url('/medias/featureimages/3.jpg')">
-            
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/" class="category">知识点</a>
-                        
-                    
-                </div>
-                <a href="/2023/022149946.html">
-                    <h3 class="post-title">stm32</h3>
-                </a>
-                <p class="post-description">
-                    
-                        关于stm32的知识
-                    
-                </p>
-                <a href="/2023/022149946.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" >
-        
             <div class="post-card" style="background-image: url('/medias/featureimages/0.jpg')">
             
             <div class="post-body">
@@ -608,7 +580,35 @@
                         这是我的第一篇文章
                     
                 </p>
-                <a href="/2023/022110682.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <a href="/2023/022110682.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        
+            <div class="post-card" style="background-image: url('/medias/featureimages/3.jpg')">
+            
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/" class="category">知识点</a>
+                        
+                    
+                </div>
+                <a href="/2023/022149946.html">
+                    <h3 class="post-title">stm32</h3>
+                </a>
+                <p class="post-description">
+                    
+                        关于stm32的知识
+                    
+                </p>
+                <a href="/2023/022149946.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -903,7 +903,6 @@
 
 
 
-
     <footer class="page-footer bg-color">
     
         <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
@@ -942,7 +941,7 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="7972460749"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
@@ -1077,7 +1076,6 @@
 
 <div class="progress-bar"></div>
 
-
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
@@ -1189,6 +1187,63 @@ $(function () {
     </a>
 </div>
 
+    <!-- 白天和黑夜主题 -->
+<div class="sum-moon-box">
+    <a class="btn-floating btn-large waves-effect waves-light" onclick="switchNightMode()" title="切换主题" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="width:48px; height:48px; font-size: 28px;"></i>
+    </a>
+  </div>
+  
+  <script>
+    function switchNightMode() {
+      $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+          $('body').hasClass('DarkMode')
+          ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon'))
+          : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+  
+          setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+              $(this).remove()
+            })
+          }, 2e3)
+        })
+    }
+  </script>
+  
+  <div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </div>
+  
+  
+
+    <script>
+        /* 模式判断 */
+        if (localStorage.getItem('isDark') === '1') {
+          document.body.classList.add('DarkMode');
+          $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')
+        } else {
+          document.body.classList.remove('DarkMode');
+          $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')
+        }
+    </script>
+    
+   
+    <!-- 冒泡 -->
+
+    <script type="text/javascript">
+        // 只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        document.write(
+            '<script type="text/javascript" src="/libs/others/buble.js"><\/script>'
+        );
+    </script>
+
+
+   
+    
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
@@ -1248,3 +1303,5 @@ $(function () {
         document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
     }
     </script>
+
+
