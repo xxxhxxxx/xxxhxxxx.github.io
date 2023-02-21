@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>个人博客</title>
+      <link href="/2023/022110682.html"/>
+      <url>/2023/022110682.html</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: 基于Hexo的hexo-theme-matery主题搭建博客并优化<br>date: 2019-10-03 14:25:00<br>author: 悟尘<br>img: &#x2F;source&#x2F;images&#x2F;xxx.jpg<br>top: true<br>cover: true<br>coverImg: &#x2F;images&#x2F;1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: 工具<br>tags:</p><ul><li>blog</li><li>hexo</li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
