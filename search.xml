@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>主车从车</title>
-      <link href="/2023/022119314.html"/>
-      <url>/2023/022119314.html</url>
+      <title>Markdown语法</title>
+      <link href="/2023/022322648.html"/>
+      <url>/2023/022322648.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p><em>斜体文本</em><br>_斜体文本*</p><p><em><strong>加粗并斜体文本</strong></em><br><em><strong>加粗并斜体文本</strong></em><br><em><strong>加粗并斜体文本</strong></em></p><p><code>高亮</code>文字        </p><p><del>删除文本</del>        <del>  nihao <del></p><blockquote><p><strong>开始引用</strong></p><p><em>换行一次</em> <strong>仍在引用</strong><br><em>换行两次</em> <strong>引用结束</strong></p></blockquote><blockquote><p>微型计算机系统         嵌套使用</p><blockquote><p>硬件系统</p><blockquote><p>中央处理器</p><p>存储器</p><blockquote><p>内存</p><p>外存</p></blockquote><p>输入设备</p><blockquote><p>键盘</p><p>鼠标</p></blockquote><p>输出设备</p><blockquote><p>显示器</p><p>打印机</p></blockquote></blockquote><p>软件系统</p><blockquote><p>系统软件</p><p>应用软件</p></blockquote></blockquote></blockquote><p>插入链接<br><a href="https://yesright.cn/">博客主页</a></p><p><a href="https://github.com/study-harder">follow me</a></p><p>插入图片<br><img src="https://gitee.com/yesright/blogimage/raw/master/img/avatar.png" alt="头像"><br><img src="/img/avatar.png" alt="头像">  &#x2F;&#x2F;可以用相对地址，此处没有对应图片所以无法显示</p><p>在markdown的语法里面，使用了一些特定的符号作为语法:</p><p>\ &#96; *_{}<a href=""></a>#+-.!</p><p>如果我们想输出符号，而不是被识别成语法，就需要使用转义字符\</p><table><thead><tr><th align="center">课程表</th><th align="center">星期一</th><th align="center">星期二</th><th align="center">星期三</th><th align="center">星期四</th><th align="center">星期五</th></tr></thead><tbody><tr><td align="center">上午</td><td align="center">Math</td><td align="center">Chinese</td><td align="center">Music</td><td align="center">Math</td><td align="center">Chinese</td></tr><tr><td align="center">下午</td><td align="center">Chinese</td><td align="center">PE</td><td align="center">Math</td><td align="center">English</td><td align="center">Computer</td></tr><tr><td align="center">晚自习</td><td align="center">English</td><td align="center">Computer</td><td align="center">Computer</td><td align="center">Math</td><td align="center">Chinese</td></tr></tbody></table><table><thead><tr><th align="center">课程表</th><th align="center">星期一</th><th align="center">星期二</th><th align="center">星期三</th><th align="center">星期四</th><th align="center">星期五</th></tr></thead><tbody><tr><td align="center">上午</td><td align="center">Math</td><td align="center">Chinese</td><td align="center">Music</td><td align="center">Math</td><td align="center">Chinese</td></tr><tr><td align="center">下午</td><td align="center">Chinese</td><td align="center">PE</td><td align="center">Math</td><td align="center">English</td><td align="center">Computer</td></tr><tr><td align="center">晚自习</td><td align="center">English</td><td align="center">Computer</td><td align="center">Computer</td><td align="center">Math</td><td align="center">Chinese</td></tr></tbody></table><table><thead><tr><th align="center">课程表</th><th align="center">星期一</th><th align="center">星期二</th><th align="center">星期三</th><th align="center">星期四</th><th align="center">星期五</th></tr></thead><tbody><tr><td align="center">上午</td><td align="center">MATH</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">下午</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">晚自习</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><p><a href="https://blog.csdn.net/NOT_TODAY1/article/details/122790202?spm=1001.2014.3001.5506">我的主页</a></p><p><a href="https://xxxhxxxx.github.io/">普洱的博客</a></p><p><img src="https://alifei04.cfp.cn/creative/vcg/800/new/VCG41560336195.jpg" alt="风景图片">       </p><h1 id="写作介绍"><a href="#写作介绍" class="headerlink" title="写作介绍"></a>写作介绍</h1><h2 id="1，字体介绍"><a href="#1，字体介绍" class="headerlink" title="1，字体介绍"></a>1，字体介绍</h2><p><em>这是斜体</em> 或 <em>这也是斜体</em><br><strong>这是粗体</strong><br><em><strong>这是加粗斜体</strong></em><br><del>这是删除线</del></p><h2 id="2，分级标题"><a href="#2，分级标题" class="headerlink" title="2，分级标题"></a>2，分级标题</h2><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-2"><a href="#二级标题-2" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题-1"><a href="#三级标题-1" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题-1"><a href="#四级标题-1" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题-1"><a href="#五级标题-1" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题-1"><a href="#六级标题-1" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="3，超链接"><a href="#3，超链接" class="headerlink" title="3，超链接"></a>3，超链接</h2><p>写法：</p><p>行内形式：<a href="https://xfbxfbxfb.github.io/">我的博客</a><br>参考形式：<a href="https://xfbxfbxfb.github.io/">我的博客</a>，有一个很好的平台-<a href="http://www.jianshu.com/">简书</a></p><p>自动链接：我的博客地址<a href="https://xfbxfbxfb.github.io/">https://xfbxfbxfb.github.io/</a></p><h2 id="4-列表"><a href="#4-列表" class="headerlink" title="4,列表"></a>4,列表</h2><p>无序列表：<br>写法：</p><ul><li>无序列表项1</li></ul><ul><li>无序列表项2</li></ul><ul><li>无序列表项3</li></ul><p>有序列表：<br>写法：<br>1.有序列表项1<br>2.有序列表项2<br>3.有序列表项3</p><h2 id="5，插入图片"><a href="#5，插入图片" class="headerlink" title="5，插入图片"></a>5，插入图片</h2><p>在 Hexo 中插入图片，首先需要将图片放在 source&#x2F;img&#x2F; 文件夹下，然后如下方式进行插入：</p><p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535014836&di=fafdb400041dc371b853cfb3fcc7b851&imgtype=jpg&er=1&src=http://scdn.file1.gk99.com/photo/2015-09/2015-09-11/14419580206489.jpg"></p><h2 id="6，表格"><a href="#6，表格" class="headerlink" title="6，表格"></a>6，表格</h2><table><thead><tr><th>表头1</th><th align="left">表头2</th><th align="center">表头3</th><th align="right">表头4</th></tr></thead><tbody><tr><td>默认左对齐</td><td align="left">左对齐</td><td align="center">居中对其</td><td align="right">右对齐</td></tr><tr><td>默认左对齐</td><td align="left">左对齐</td><td align="center">居中对其</td><td align="right">右对齐</td></tr><tr><td>默认左对齐</td><td align="left">左对齐</td><td align="center">居中对其</td><td align="right">右对齐</td></tr></tbody></table><p><img src="/image/5.jpg" alt="images"></p><h2 id="7，图片"><a href="#7，图片" class="headerlink" title="7，图片"></a>7，图片</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 语法 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,95 +30,16 @@
         <content type="html"><![CDATA[]]></content>
       
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>数电</title>
-      <link href="/2023/022139715.html"/>
-      <url>/2023/022139715.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>模电</title>
-      <link href="/2023/022125163.html"/>
-      <url>/2023/022125163.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C语言相关知识</title>
-      <link href="/2023/022119427.html"/>
-      <url>/2023/022119427.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>stm32</title>
-      <link href="/2023/022149946.html"/>
-      <url>/2023/022149946.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       <categories>
           
-          <category> 知识点 </category>
+          <category> 蓝桥杯 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> stm32 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>个人博客</title>
-      <link href="/2023/022110682.html"/>
-      <url>/2023/022110682.html</url>
-      
-        <content type="html"><![CDATA[<hr><p>title: 基于Hexo的hexo-theme-matery主题搭建博客并优化<br>date: 2019-10-03 14:25:00<br>author: 悟尘<br>img: &#x2F;source&#x2F;images&#x2F;xxx.jpg<br>top: true<br>cover: true<br>coverImg: &#x2F;images&#x2F;1.jpg<br>password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92<br>toc: false<br>mathjax: false<br>summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories: 工具<br>tags:</p><ul><li>blog</li><li>hexo</li></ul><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> hexo </tag>
+            <tag> 蓝桥杯 </tag>
             
         </tags>
       
