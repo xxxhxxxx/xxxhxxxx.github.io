@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>电路分析</title>
+      <link href="/2023/02251381.html"/>
+      <url>/2023/02251381.html</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="第一章（电路模型和电路定律）"><a href="#第一章（电路模型和电路定律）" class="headerlink" title="第一章（电路模型和电路定律）"></a>第一章（电路模型和电路定律）</h2><h3 id="1-绪论"><a href="#1-绪论" class="headerlink" title="1.绪论"></a>1.绪论</h3><p><strong>关于关联参考方向和非关联参考方向：</strong></p><p> 当电压方向和电流方向相同，为关联参考方向。        同理：相反时，为非关联参考方向。</p><p>功率：  关联—&gt;  吸                    |                   非关联——&gt;发                                                               </p><table><thead><tr><th align="center">关联时</th><th align="center">非关联</th></tr></thead><tbody><tr><td align="center">P<del>吸</del>&#x3D;ui  （元件真正吸收的功率）</td><td align="center">P<del>发</del>&#x3D;ui（元件真正发出的功率）</td></tr><tr><td align="center">P<del>吸</del>&gt;0    （元件真正吸收功率）</td><td align="center">P<del>发</del>&gt;0（元件真正发出的功率）</td></tr><tr><td align="center">P<del>吸</del>&lt;0     （元件真正发出功率）</td><td align="center">P<del>发</del>&lt;0（元件真正吸收的功率）</td></tr></tbody></table><h3 id="2-电阻，独立源，受控源"><a href="#2-电阻，独立源，受控源" class="headerlink" title="2.电阻，独立源，受控源"></a>2.电阻，独立源，受控源</h3><p><strong>受控源： 1.受控电阻      2.受控电源</strong>（非独立源）</p><ol><li><p>G（电导）：能够促使电流导通的能力       G&#x3D;1&#x2F;R  —&gt; i&#x3D;Gu （公式列写必须根据参考方向）  </p></li><li><p>当R&#x3D;0（G&#x3D;无穷大），视其为<strong>短路</strong>，因此为理想导线，u&#x3D;0，流过电流为任意值，i由外电路决定。</p></li><li><p>当R&#x3D;无穷大（G&#x3D;0），视其为<strong>开路</strong>，i&#x3D;0，u由外电路决定。</p></li><li><p>电阻器：贴片电阻 ，碳膜电阻 ，金属膜电阻，.线绕电阻</p></li><li><p>电压源：（圆圈里面是竖线）电压源不能短路。关联：p&gt;0，则为吸收功率，充当负载； 非关联：p&gt;0，则为发出功率，充当电源；</p></li><li><p>电流源：（圆圈里面是横线）电流源不能开路。关联：P&gt;0,则为吸收功率，充当负载；以下同理</p></li><li><p>将理想电压源与理想电流源称为独立源</p></li><li><p>受控电源分为<strong>受控电压源</strong>和<strong>受控电流源</strong>，受控源可分为四种类型</p><blockquote><ol><li>电压控制电压源（VCVS）；      2.电压控制电流源  (VCCS)    3.电流控制电流源（CCCS）；        4.电流控制电压源（CCVS）；  电压控制开路，电流控制短路；</li></ol></blockquote></li></ol><h3 id="3-基尔霍夫定律"><a href="#3-基尔霍夫定律" class="headerlink" title="3.基尔霍夫定律"></a>3.基尔霍夫定律</h3><p><strong>基尔霍夫电流定律（KCL）；    基尔霍夫电压定律（KVL）</strong></p><p>1.元件特性：VCR（电压电流关系）</p><p>2.几个名词：</p><blockquote><p>支路： 1.电路中每一个两端元件就称为一条支路；2.电路中通过同一电流的分支；</p><p>结点： 1.元件的连接点称为结点；  2.或三条以上支路的连接点称为结点；</p><p>路径： 1.两节点之间的一条通路，由支路构成； </p><p>回路： 1.由支路组成的闭合路径；  2.路径经过中，结点只能经过一次；</p><p>网孔：</p><p><strong>注意！</strong> 网孔是回路，但回路不一定是网孔；</p></blockquote><p>3.KCL：流进的电流等于流出的电流（在集电参数电路，任意时刻），对任意结点流流入（或流出）该节点流的代数和恒为零，且令（流出为正）；   KCL方程是由电流参考方向列写的，与电流实际方向无关；</p><p>4.KVL： 沿任一回路，所有支路电压的代数和恒为零（在集电参数电路，任意时刻），</p><p>​        <u>1.标定各元件电压参考方向</u>       <u>2.  选定回路绕行方向，顺时针或逆时针；</u></p><p>5.KCL，KVL小结 ：(1) ：KCL是对支路电流的线性约束，KVL是对回路电压的线性约束；     </p><p>​                                （2)：  KCL，KVL与组成支路的元件性质及参数无关；</p><p>KCL，KVL只适用于集总参数电路；</p><hr><h2 id="第二章（电阻电路的等效变换）"><a href="#第二章（电阻电路的等效变换）" class="headerlink" title="第二章（电阻电路的等效变换）"></a>第二章（电阻电路的等效变换）</h2><h3 id="1-电阻的等效变换"><a href="#1-电阻的等效变换" class="headerlink" title="1.电阻的等效变换"></a>1.电阻的等效变换</h3><blockquote><p>二端电路（二端网络，也可称为一端口网络）,无源一端口网络（无受控源）；</p><p>输入电阻为正，则为有源，否则为无源；</p></blockquote><h3 id="2-二端电路等效的概念"><a href="#2-二端电路等效的概念" class="headerlink" title="2.二端电路等效的概念"></a>2.二端电路等效的概念</h3><p><u>端口具有相同的电压，电流，功率关系（对外部来说），则称他们是等效的电路（对外等效，对内部不等效）</u></p><p><strong>关于电桥平衡的条件： 加入有两端a和b，从端子a到端子b经过的最短的两条路径中依次经过的电阻的壁纸相等时电桥平衡；（最短两条路径是表示路径中电阻数量最少的）（比值为最短路径中的电阻之间的比值）</strong></p><h3 id="3-电阻的Y形联结和Δ形连接的等效变换"><a href="#3-电阻的Y形联结和Δ形连接的等效变换" class="headerlink" title="3.电阻的Y形联结和Δ形连接的等效变换"></a>3.电阻的Y形联结和Δ形连接的等效变换</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 电路 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>蓝桥杯</title>
       <link href="/2023/022148363.html"/>
       <url>/2023/022148363.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1-LED"><a href="#1-LED" class="headerlink" title="1.LED"></a>1.LED</h1><h1 id="2-KEY"><a href="#2-KEY" class="headerlink" title="2.KEY"></a>2.KEY</h1><h1 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h1><p><img src="https://cdn.jsdelivr.net/gh/xxxhxxxx/xxxhxxxx.github.io/images/image-20230224235348095.png" alt="image-20230224235348095"></p><p><img src="https://cdn.jsdelivr.net/gh/xxxhxxxx/xxxhxxxx.github.io/images/image-20230224235500567.png" alt="image-20230224235500567"></p><p><img src="https://ts4.cn.mm.bing.net/th?id=OIP-C.a13xv-Dkd4pE26B1PNFpyAHaGl&w=265&h=235&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></p><iframe height=498 width=100% src='https://www.bilibili.com/video/BV1Gt411b7Zq/?p=3&share_source=copy_web&vd_source=0121c18f2e13cfc61bab04771b99f690' frameborder=0 'allowfullscreen'></iframe><p><img src="https://cdn.jsdelivr.net/gh/xxxhxxxx/xxxhxxxx.github.io/images/20230225002408.png"></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=4940455&auto=1&height=32"></iframe><p><img src="https://cdn.jsdelivr.net/gh/xxxhxxxx/xxxhxxxx.github.io/images/20230225002701.png"></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1844449888&auto=1&height=66"></iframe>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
